@@ -5,6 +5,7 @@ const sayHello = string => {
 
 const uppercase = string => {
   // your code here
+  return string.toUpperCase();
 };
 
 const lowercase = string => {
