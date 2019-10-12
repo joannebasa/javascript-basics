@@ -15,10 +15,13 @@ const lowercase = string => {
 
 const countCharacters = string => {
   // your code here
+  return string.length;
+  // length is a property, not a function, () not needed
 };
 
 const firstCharacter = string => {
   // your code here
+
 };
 
 const firstCharacters = (string, n) => {
