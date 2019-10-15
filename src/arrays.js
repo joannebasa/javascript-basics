@@ -1,10 +1,12 @@
 const getNthElement = (index, array) => {
   // your code here
-  return array[index];
+  // return array[index]; //this is wrong
+
 };
 
 const arrayToCSVString = array => {
   // your code here
+  return array.toString();
 };
 
 const csvStringToArray = string => {
