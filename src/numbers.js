@@ -40,6 +40,7 @@ const roundDown = a => {
 
 const absolute = a => {
   // your code here
+  return Math.abs(a);
 };
 
 const quotient = (a, b) => {
