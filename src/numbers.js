@@ -30,6 +30,7 @@ const round = a => {
 
 const roundUp = a => {
   // your code here
+  return Math.ceil(a);
 };
 
 const roundDown = a => {
