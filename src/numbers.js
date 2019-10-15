@@ -35,6 +35,7 @@ const roundUp = a => {
 
 const roundDown = a => {
   // your code here
+  return Math.floor(a);
 };
 
 const absolute = a => {
