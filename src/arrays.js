@@ -59,6 +59,7 @@ const removeSpaces = string => {
 
 const sumNumbers = numbers => {
   // your code here
+  return numbers.reduce((a, b) => {return a+b;})
 };
 
 const sortByLastLetter = strings => {
