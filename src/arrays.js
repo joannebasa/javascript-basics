@@ -16,10 +16,12 @@ const csvStringToArray = string => {
 
 const addToArray = (element, array) => {
   // your code here
+
 };
 
 const addToArray2 = (element, array) => {
   // your code here
+
 };
 
 const removeNthElement = (index, array) => {
@@ -52,6 +54,7 @@ const elementsStartingWithAVowel = strings => {
 
 const removeSpaces = string => {
   // your code here
+  return string.replace(/\s/g, '');
 };
 
 const sumNumbers = numbers => {
