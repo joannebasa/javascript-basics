@@ -34,6 +34,9 @@ const numbersToStrings = numbers => {
 
 const uppercaseWordsInArray = strings => {
   // your code here
+  return strings.map(string => { 
+      return string.toUpperCase();
+    });
 };
 
 const reverseWordsInArray = strings => {
@@ -64,6 +67,7 @@ const sumNumbers = numbers => {
 
 const sortByLastLetter = strings => {
   // your code here
+
 };
 
 module.exports = {
