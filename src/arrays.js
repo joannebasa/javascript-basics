@@ -21,7 +21,8 @@ const addToArray = (element, array) => {
 
 const addToArray2 = (element, array) => {
   // your code here
-
+  const array2 = array.concat(element);
+  return array2;
 };
 
 const removeNthElement = (index, array) => {
@@ -35,8 +36,8 @@ const numbersToStrings = numbers => {
 const uppercaseWordsInArray = strings => {
   // your code here
   return strings.map(string => { 
-      return string.toUpperCase();
-    });
+    return string.toUpperCase();
+  });
 };
 
 const reverseWordsInArray = strings => {
