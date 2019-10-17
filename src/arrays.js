@@ -1,7 +1,7 @@
 const getNthElement = (index, array) => {
   // your code here
   // return array[index]; //this is wrong
-
+  return array[index % array.length];
 };
 
 const arrayToCSVString = array => {
